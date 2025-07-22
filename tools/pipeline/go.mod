@@ -1,6 +1,6 @@
 module github.com/hashicorp/vault/tools/pipeline
 
-go 1.23.2
+go 1.23.11
 
 require (
 	github.com/Masterminds/semver v1.5.0

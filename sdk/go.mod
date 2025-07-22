@@ -1,6 +1,6 @@
 module github.com/hashicorp/vault/sdk
 
-go 1.23.0
+go 1.23.11
 
 require (
 	cloud.google.com/go/cloudsqlconn v1.4.3
@@ -125,7 +125,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.31.0 // indirect
 	go.opentelemetry.io/otel/trace v1.31.0 // indirect
 	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/oauth2 v0.24.0 // indirect
+	golang.org/x/oauth2 v0.30.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/term v0.28.0 // indirect
