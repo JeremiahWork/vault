@@ -1,3 +1,7 @@
+b:
+	make bootstrap && \
+	CGO_ENABLED=0 BUILD_TAGS="ui" VAULT_DEV_BUILD=0 sh -c "'./scripts/build.sh'"
+
 # Determine this makefile's path.
 # Be sure to place this BEFORE `include` directives, if any.
 THIS_FILE := $(lastword $(MAKEFILE_LIST))
